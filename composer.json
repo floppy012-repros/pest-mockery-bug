@@ -1,0 +1,27 @@
+{
+    "name": "floppy012/phpunit-mockery-bug",
+    "type": "project",
+    "scripts": {
+        "test": "@php vendor/bin/phpunit"
+    },
+    "require": {
+        "phpunit/phpunit": "^10.5",
+        "mockery/mockery": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Floppy012\\PhpunitMockeryBug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Florian Schmidt",
+            "email": "florian@f012.dev"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": false
+        }
+    }
+}
